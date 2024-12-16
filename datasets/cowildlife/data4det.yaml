@@ -1,0 +1,13 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 4
+names: ['black-bear', 'cottontail-rabbit', 'moose', 'mule-deer']
+
+roboflow:
+  workspace: cowildlife
+  project: cowildlife
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/cowildlife/cowildlife/dataset/4
